@@ -19,7 +19,7 @@ Closes out the current session and its task in one run. Invoked as `/mb-close-ou
 
 ## Step 1 — Session page
 
-Write the session summary with `put_page`, slug `sessions/<YYYY-MM-DD>-<short-slug>`. One screen: what was done and the evidence, the decisions and standards the developer set, quirks, the documents written or changed, what is open. The documents hold the detail; the page says what happened and where to look.
+Write the session summary as a file, `sessions/<YYYY-MM-DD>-<short-slug>.md`: in the current repository when it is on the commit-all list, otherwise in `C:\mybizz\mybizz-config-docs\sessions\`. Body only; the commit hook adds the frontmatter, and commit all imports the page into GBrain. Never write it with `put_page` or `gbrain capture`: those write directly into a source's folder, which needs a source owner, and no source has one. One screen: what was done and the evidence, the decisions and standards the developer set, quirks, the documents written or changed, what is open. The documents hold the detail; the page says what happened and where to look.
 
 ## Step 2 — Candidate facts
 
