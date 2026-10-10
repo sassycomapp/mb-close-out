@@ -1,7 +1,7 @@
 ---
 title: "mb-close-out"
 doc-id: "mb-c0e15a53"
-updated: "2026-10-07"
+updated: "2026-10-10"
 ---
 # mb-close-out
 
@@ -30,7 +30,7 @@ Write the session summary as a file, `sessions/<YYYY-MM-DD>-<short-slug>.md`: in
 
 ## Step 3 — Project documents
 
-When the session worked in one of the five projects (makepdlf, mb-3-cs, mb4ecom, mb5pdlf, pdlf), run `/mb-project-docs` up to its Step 6. Its presentation goes into the gate message. Otherwise skip this step.
+When the session worked in one of the four projects (mb-3-cs, mb4ecom, mb5pdlf, pdlf), run `/mb-project-docs` up to its Step 6. Its presentation goes into the gate message. Otherwise skip this step.
 
 ## Step 4 — Changed files
 
